@@ -1,0 +1,15 @@
+.social{
+  display: flex;
+  gap: 16px;
+}
+
+.social a{
+  width: 44px;
+  height: 44px;
+  background-color: turquoise;
+  border: 2px solid #0F0A0A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}

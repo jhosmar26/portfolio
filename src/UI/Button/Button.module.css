@@ -1,0 +1,16 @@
+.primary{
+  background-color: #42E2B8;
+  border: 2px solid #0F0A0A;
+  padding: 13px 24px;
+  border-radius: 90px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  width: fit-content;
+}
+
+.secundary{
+  background-color: transparent;
+  padding: 13px 24px;
+  border-radius: 90px;
+  width: fit-content;
+}

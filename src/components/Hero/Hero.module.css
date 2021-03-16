@@ -1,0 +1,28 @@
+.hero{
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.left{
+  /* width: 50%; */
+  /* max-width: 450px; */
+  max-width: 540px;
+  padding-right: 90px;
+  box-sizing: border-box;
+}
+
+.right{
+  max-width: 540px;
+  width: 100%;
+  /* padding-left: 100px; */
+  box-sizing: border-box;
+}
+
+.elisa{
+  width: 600px;
+  /* clip-path: polygon(0 0, 5% 85%, 12% 93%, 21% 97%, 34% 99%, 50% 100%, 65% 99%, 76% 97%, 85% 93%, 94% 88%, 100% 83%, 100% 0); */
+
+
+}
