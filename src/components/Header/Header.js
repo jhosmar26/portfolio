@@ -1,5 +1,5 @@
 import { Button } from '../../UI/Button/Button';
-import { Navbar } from '../../UI/Navbar/Navbar';
+import { Navbar } from '../Navbar/Navbar';
 import style from "./Header.module.css"
 
 const handleCurriculum = (e) => {

@@ -1,0 +1,19 @@
+.Comment{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Comment > p{
+  margin: 12px 0;
+}
+
+.commentText{
+  max-width: 900px;
+}
+
+.arrow{
+  width: 80px;
+}

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
 
 .logo{
@@ -102,3 +102,37 @@
   letter-spacing: 0.4000000059604645px;
   text-align: center;
 }
+
+.comment-text{
+  font-family: "Oxygen", sans-serif;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+/* FORM */
+
+.form-label{
+  font-family: "Oxygen", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0.005em;
+  text-align: left;
+}
+
+/* CUSTOM TEXT */
+
+.filter_subtitle{
+  background-color: red;
+  display: inline;
+  padding: 4px 8px;
+  box-shadow: -4px 4px 0px 0px #FFFFFF;
+  background-color: var(--black);
+  color: var(--color-secundary);
+}
+

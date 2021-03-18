@@ -1,0 +1,38 @@
+.form{
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  max-width: 545px;
+}
+
+.form > .title,
+.form > .description{
+  text-align: center;
+}
+
+.form > label{
+  margin-left: 16px;
+  margin-bottom: 8px;
+}
+
+.form > .value{
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-bottom: 16px;
+}
+
+.form > textarea{
+  height: 168px;
+}
+
+.submit{
+  background-color: #42E2B8;
+  border: 2px solid #0F0A0A;
+  padding: 13px 24px;
+  border-radius: 90px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  gap: 8px;
+}

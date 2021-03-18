@@ -6,6 +6,8 @@ const handleClick = (e)=>{
   console.log("a")
 }
 
+
+
 export const Navbar = () => {
   return (
     <nav className={style.nav}>

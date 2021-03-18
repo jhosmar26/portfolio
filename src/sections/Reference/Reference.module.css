@@ -1,0 +1,29 @@
+.Reference{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  padding: 80px 0;
+}
+
+.reverse{
+  flex-direction: row-reverse;
+}
+
+.left{
+  max-width: 450px;
+}
+
+.right{
+  margin: auto;
+}
+
+.heroImg{
+  max-width: 637px;
+  width: 100%;
+}
+
+.buttons{
+  display: flex;
+  gap: 16px;
+}

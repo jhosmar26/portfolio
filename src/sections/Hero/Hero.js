@@ -2,9 +2,9 @@ import { Social } from "../../UI/Social/Social"
 import style from "./Hero.module.css"
 import elisa from "./../../stylesheet/person.png"
 
-export const Hero = ({id}) => {
+export const Hero = () => {
   return (
-    <section className={style.hero} id={id}>
+    <section className={style.hero} id="a">
       <div className={style.left}>
         <p className="headline3">¡Hola a todos!</p>
         <p className="headline2">Soy Elisa</p>
