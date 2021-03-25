@@ -7,12 +7,12 @@ const handleCurriculum = (e) => {
   window.open("https://docs.google.com/document/d/1G0CTCd4VHPxxju3Bpqn4_D4DIOQcLRXVnSnJuSWS7ro/edit?usp=sharing")
 }
 
-export const Header = () => {
+export const Header = ({top}) => {
   return (
-    <header className={style.header}>
+    <header className={top ? style.header : style.headerFixed}>
       <div
         className={`${style.left} logo`}
-      >
+        >
         LOGO
       </div>
       <Navbar />

@@ -1,6 +1,7 @@
 .Reference{
   display: flex;
   justify-content: space-between;
+  /* min-height: 100vh; */
   align-items: center;
   gap: 24px;
   padding: 80px 0;
@@ -26,4 +27,8 @@
 .buttons{
   display: flex;
   gap: 16px;
+}
+
+.space{
+  min-height: 80vh;
 }

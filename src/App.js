@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react"
 import { Header } from "./components/Header/Header";
 import { Comment } from "./sections/Comment/Comment";
 import { Hero } from "./sections/Hero/Hero";
@@ -15,17 +16,27 @@ import style from "./App.module.css"
 import { Form } from "./sections/Form/Form";
 
 function App() {
+  const [top, setStop] = useState(window.scrollY);
+
+  useEffect(()=>{
+    window.onscroll = ()=>{setStop(window.scrollY)}
+  },[]);
+
   return (
     <div className="App">
-      <Header/>
-      <Hero/>
+
+      <Header top={top === 0 ? true : false}/>
+      {top === 0 ? true : false}
+      <Hero />
       <Comment/>
       <Reference
+        id="proyectos"
         title="leonidasesteban.com"
         description="Accede a más de 120 proyectos que te ayudarán a mejorar
         tus habilidades como desarrollador Front-End."
         proyectUrl="https://leonidasesteban.com/"
         heroImg={referenceImg1}
+        referenced
       />
       <Quote
         img={author1}

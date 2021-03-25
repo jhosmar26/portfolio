@@ -1,14 +1,25 @@
 .header{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  max-width: 1132px;
-  margin: auto;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-top: 20px;
+  padding: 20px 12%;
   position: fixed;
     right: 0;
     left: 0;
+}
+
+.headerFixed{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 5px 12%;
+  position: fixed;
+  right: 0;
+  left: 0;
+  background-color: white;
+}
+
+.header,
+.headerFixed{
+  transition: .3s;
 }
 
 .left{
@@ -18,4 +29,8 @@
 
 .right{
   margin-left: auto;
+}
+
+.active{
+  background-color: var(--color-secundary);
 }

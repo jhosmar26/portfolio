@@ -1,7 +1,7 @@
 .form{
   margin: auto;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   display: flex;
   flex-direction: column;
   max-width: 545px;
@@ -21,6 +21,8 @@
   border-radius: 8px;
   padding: 12px 16px;
   margin-bottom: 16px;
+  border: 2px solid #858C94;
+  resize: none;
 }
 
 .form > textarea{
@@ -35,4 +37,17 @@
   box-sizing: border-box;
   text-transform: uppercase;
   gap: 8px;
+}
+
+.thanksMessage{
+  margin: 0;
+  margin-top: -80px;
+  font-family: "Oxygen", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 95px;
+  letter-spacing: -0.005em;
+  text-align: center;
+  padding: 10px 0;
 }

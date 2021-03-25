@@ -8,10 +8,11 @@ const gotoUrl = (e, url) => {
   window.open(url)
 }
 
-export const Reference = ({title, description, proyectUrl, heroImg, reverse = false}) => {
+export const Reference = ({id, title, description, proyectUrl, heroImg, reverse = false, referenced}) => {
 
   return (
-    <section className={`${style.Reference} ${reverse ? style.reverse : ""}`} id="c">
+    <section id={id} className={`${style.Reference} ${reverse ? style.reverse : ""}`}>
+      {referenced ? <div className={style.space}/> : ""}
       <div className={style.left}>
         <div className="filter_subtitle headline4">{title}</div>
         <p className="body1" dangerouslySetInnerHTML={{ __html: description }} />

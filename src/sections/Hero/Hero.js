@@ -4,10 +4,10 @@ import elisa from "./../../stylesheet/person.png"
 
 export const Hero = () => {
   return (
-    <section className={style.hero} id="a">
+    <section id="hola" className={style.hero}>
       <div className={style.left}>
-        <p className="headline3">¡Hola a todos!</p>
-        <p className="headline2">Soy Elisa</p>
+        <p className={`${style.textHero} headline3`}>¡Hola a todos!</p>
+        <p className={`${style.textHero} headline2`}>Soy Elisa</p>
         <p className="body1">Una Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.</p>
         <Social/>
       </div>
