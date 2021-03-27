@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react"
 import { Header } from "./components/Header/Header";
 import { Comment } from "./sections/Comment/Comment";
 import { Hero } from "./sections/Hero/Hero";
@@ -66,8 +65,11 @@ function App() {
         >
           LOGO
         </div>
-        <p className="body1">
-          Hecho con <FaHeart style={{marginBottom:-2}}/> de Elisa. Copyright 2021 - Todos los derechos reservados.
+        <p className={`body1 ${style.footerText}`}>
+          <span>
+            Hecho con <FaHeart style={{marginBottom:-2}}/> de Elisa.
+          </span>
+          Copyright 2021 - Todos los derechos reservados.
         </p>
         <Social/>
       </footer>

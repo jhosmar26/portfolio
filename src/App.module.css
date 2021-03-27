@@ -17,4 +17,9 @@
   .footer > p{
     text-align: center;
   }
+
+  .footerText{
+    display: flex;
+    flex-direction: column;
+  }
 }

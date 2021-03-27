@@ -40,4 +40,8 @@
   .headerFixed{
     display: flex;
   }
+
+  .right{
+    font-weight: 700 !important;
+  }
 }

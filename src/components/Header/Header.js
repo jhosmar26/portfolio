@@ -10,10 +10,21 @@ const handleCurriculum = (e) => {
 
 export const Header = () => {
   const [top, setStop] = useState(window.scrollY);
+  const [width, setWidth] = useState(window.innerWidth)
 
   useEffect(()=>{
     window.onscroll = ()=>{setStop(window.scrollY)}
   },[]);
+
+  useEffect(() => {
+    const updateWidth = () => {
+      setWidth(window.innerWidth)
+    };
+
+    window.addEventListener("resize", updateWidth);
+
+    return () => window.removeEventListener("resize", updateWidth)
+  }, [])
 
 
   return (
@@ -30,7 +41,7 @@ export const Header = () => {
           type="primary"
           onClick={(e)=>{handleCurriculum(e)}}
         >
-          Ver curriculum
+          {width > 1024 ? "Ver currículum": "Currículum"}
         </Button>
       </div>
     </header>

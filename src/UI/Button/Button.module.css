@@ -7,6 +7,7 @@
   text-transform: uppercase;
   width: fit-content;
   gap: 8px;
+  font-weight: 700;
 }
 
 .secundary{
