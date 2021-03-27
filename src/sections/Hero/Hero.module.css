@@ -6,21 +6,47 @@
 }
 
 .left{
-  max-width: 540px;
+  width: 50%;
   padding-right: 90px;
   box-sizing: border-box;
+  margin-bottom: 120px;
 }
 
 .right{
-  max-width: 540px;
-  width: 100%;
+  width: 50%;
   box-sizing: border-box;
+  text-align: center;
 }
 
 .elisa{
-  width: 600px;
+  width: 100%;
 }
 
 .textHero{
   margin: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  .hero{
+    flex-direction: column-reverse;
+    padding-bottom: 40px;
+  }
+
+  .elisa{
+    max-width: 500px;
+  }
+
+  .right{
+    margin-top: 60px;
+  }
+
+  .left{
+    padding-right: 0;
+    margin-bottom: 0;
+  }
+
+  .left,
+  .right{
+    width: 100%;
+  }
 }

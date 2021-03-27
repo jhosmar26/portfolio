@@ -16,17 +16,10 @@ import style from "./App.module.css"
 import { Form } from "./sections/Form/Form";
 
 function App() {
-  const [top, setStop] = useState(window.scrollY);
-
-  useEffect(()=>{
-    window.onscroll = ()=>{setStop(window.scrollY)}
-  },[]);
-
   return (
     <div className="App">
 
-      <Header top={top === 0 ? true : false}/>
-      {top === 0 ? true : false}
+      <Header/>
       <Hero />
       <Comment/>
       <Reference
@@ -69,7 +62,7 @@ function App() {
       <Form/>
       <footer className={style.footer}>
         <div
-          className="logo"
+          className={style.logo}
         >
           LOGO
         </div>

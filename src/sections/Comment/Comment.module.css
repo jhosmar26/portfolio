@@ -1,5 +1,4 @@
 .Comment{
-  /* min-height: 100vh; */
   padding-top: 200px;
   display: flex;
   flex-direction: column;
@@ -9,6 +8,7 @@
 
 .Comment > p{
   margin: 12px 0;
+  text-align: center;
 }
 
 .commentText{
@@ -17,4 +17,11 @@
 
 .arrow{
   width: 80px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .Comment{
+    padding-top: 0;
+    margin-top: 40px;
+  }
 }
