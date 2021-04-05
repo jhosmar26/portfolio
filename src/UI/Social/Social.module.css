@@ -6,10 +6,20 @@
 .social a{
   width: 44px;
   height: 44px;
-  background-color: turquoise;
+  background-color: var(--color-secundary);
   border: 2px solid #0F0A0A;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 4px;
+}
+
+.prueba:hover svg{
+  color: white !important;
+  transition: .2s;
+}
+
+.prueba:hover{
+  border-color: white;
+  transition: .2s;
 }

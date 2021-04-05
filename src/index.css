@@ -7,7 +7,8 @@ html{
 
 body {
   margin: 0;
-  background: linear-gradient(135deg, #FAD7A1 0%, #E96D71 100%);
+  background: rgb(208,161,250);
+  background: linear-gradient(151deg, rgba(208,161,250,1) 42%, rgba(187,187,187,1) 100%);
 }
 
 .App{

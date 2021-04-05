@@ -61,13 +61,13 @@ function App() {
       <Form/>
       <footer className={style.footer}>
         <div
-          className={style.logo}
+          className={`${style.logo} logo`}
         >
-          LOGO
+          El Pepe
         </div>
         <p className={`body1 ${style.footerText}`}>
           <span>
-            Hecho con <FaHeart style={{marginBottom:-2}}/> de Elisa.
+            Hecho con <FaHeart style={{marginBottom:-2}}/> de Jhose.
           </span>
           Copyright 2021 - Todos los derechos reservados.
         </p>

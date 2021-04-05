@@ -30,13 +30,19 @@
 }
 
 .submit{
-  background-color: #42E2B8;
+  background-color: var(--color-secundary);
   border: 2px solid #0F0A0A;
   padding: 13px 24px;
   border-radius: 90px;
   box-sizing: border-box;
   text-transform: uppercase;
   gap: 8px;
+  transition: .2s;
+}
+
+.submit:hover{
+  color: white;
+  border-color: white;
 }
 
 .thanksMessage{

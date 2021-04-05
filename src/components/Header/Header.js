@@ -32,7 +32,7 @@ export const Header = () => {
       <div
         className={`${style.left} logo`}
         >
-        LOGO
+        El Pepe
       </div>
       <Navbar />
       <div className={style.right}>

@@ -4,7 +4,7 @@ export const Button = ({children, type, onClick, id}) => {
     <button
       type="button"
       id={id}
-      className={style[type]}
+      className={`${style[type]} ${style.btn}`}
       onClick={onClick}
     >
       {children}
