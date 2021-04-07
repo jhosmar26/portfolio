@@ -5,8 +5,8 @@ import arrow from "./../../stylesheet/arrow-down.png"
 export const Comment = () => {
   return (
     <section className={style.Comment}>
-      <p className={`comment-text ${style.commentText}`}>A lo largo de mi carrera como Desarrollador, he tenido el privilegio de trabajar en proyectos retadores e increíbles</p>
-      <p className="headline5">Aquí hay algunos que me gustaría compartir.</p>
+      <p className={`comment-text ${style.commentText}`}>Mi carrera no es larga pero tengo proyectos de los que estoy orgulloso de compartir</p>
+      <p className="headline5">...y algunas referencias de compañeros :D.</p>
       <img className={style.arrow} src={arrow} alt="arrow_icon" />
     </section>
   )
